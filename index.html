@@ -72,7 +72,13 @@
                 </div>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <a data-modal-close class="modal-close icon-close">
+                        <button data-modal-close class="modal-close" type="button">
+                            <svg class="modal-close-icon" width="18px" height="18px">
+                                <use href="./img/page-3/icon/sprite.svg#icon-close">
+                            
+                                </use>
+                            </svg>
+                        </button>
 
                         </a>
                     </div>
@@ -121,13 +127,29 @@
                     <h2 class="aside-us">Чем мы занимаемся</h2>
                     <ul class="list item-us">
                         <li class="item-can">
-                            <img src="./img/page-1/img-7.jpg" width="370" height="294" alt="foto computer" />
-                            <div>
-                                <h2>Десктопные приложения</h2>
+                            <div class="features-icon">
+                              <img src="./img/page-1/img-7.jpg" width="370" height="294" alt="foto computer" />
+                              <div class="features-icon-head">
+                              <h2 class="features-icon-text">Десктопные приложения</h2>
+                              </div>
                             </div>
                         </li>
-                        <li class="item-can"><img src="./img/page-1/img-8.jpg" width="370" height="294" alt="foto telephone" /></li>
-                        <li class="item-can"><img src="./img/page-1/img-9.jpg" width="370" height="294" alt="foto tablet"></li>
+                        <li class="item-can">
+                            <div class="features-icon">
+                            <img src="./img/page-1/img-8.jpg" width="370" height="294" alt="foto telephone" />
+                                <div class="features-icon-head">
+                                <h2 class="features-icon-text">Мобильные приложения</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-can">
+                            <div class="features-icon">
+                            <img src="./img/page-1/img-9.jpg" width="370" height="294" alt="foto tablet">
+                                <div class="features-icon-head">
+                                <h2 class="features-icon-text">Дизайнерские решения</h2>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
